@@ -1,0 +1,44 @@
+.video-viewer {
+  margin: 1.5rem 0;
+  background-color: #f3f4f6;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.video-viewer video {
+  width: 100%;
+  border-radius: 0.375rem;
+  background-color: #000;
+  max-height: 300px;
+  display: block;
+}
+
+.video-viewer video.loading {
+  opacity: 0.5;
+}
+
+.video-loading, 
+.video-error {
+  padding: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  border-radius: 0.375rem;
+}
+
+.video-loading {
+  background-color: #e0f2fe;
+  color: #0369a1;
+}
+
+.video-error {
+  background-color: #fee2e2;
+  color: #b91c1c;
+}
+
+.video-controls {
+  margin-top: 0.75rem;
+  font-size: 0.875rem;
+  color: #6b7280;
+  text-align: center;
+}
